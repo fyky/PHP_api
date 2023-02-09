@@ -20,7 +20,6 @@ curl_close($ch);
 //print_r($json);
 
 foreach ($json['data'] as $a){
-  //print_r($a);
   echo "{$a['name']}の年齢は{$a['age']}です\n";
 }
 
